@@ -1,61 +1,109 @@
-📦 Student & Chair Complaint Box (MERN Stack)
-📌 Overview
+📖 Overview
 
-The Student & Chair Complaint Box is a web-based platform that allows students to submit complaints and the department chair/admin to manage and resolve them efficiently. It replaces manual complaint systems with a transparent and trackable digital solution.
+The Student-Teacher Tech Problem Solver System is a web-based application designed to bridge the communication gap between students and teachers regarding academic and technical issues.
+
+Students can raise complaints or problems, and teachers/admins can review, track, and resolve them efficiently. The system ensures transparency, faster resolution, and organized issue management.
 
 🚨 Problem Statement
 
-In many colleges, complaint handling is:
+In many institutions:
 
-Manual and unorganized
-Lacks transparency
-No proper tracking system
-Delayed responses from authorities
-💡 Solution
+Students face difficulty in reporting issues (technical or academic)
+Complaints are often lost or ignored
+No proper tracking system exists
+Lack of communication delays problem resolution
 
-This system provides:
+👉 This project solves these problems by providing a centralized complaint management system.
 
-Easy complaint submission for students
-Admin (Chair) dashboard to manage complaints
-Status tracking (Pending / Resolved)
-Direct response system
+🎯 Objectives
+Provide an easy platform for students to report issues
+Enable teachers/admin to manage and resolve complaints
+Maintain proper tracking and history of complaints
+Improve communication between students and faculty
+
+
 🛠️ Tech Stack
-Frontend: React.js
-Backend: Node.js, Express.js
-Database: MongoDB
+💻 Frontend
+HTML
+CSS
+JavaScript
+⚙️ Backend
+Java (Spring Boot)
+🗄️ Database
+MySQL
+🔌 Tools & Technologies
+JDBC
+REST APIs
+Git & GitHub
+✨ Features
 
 
-⚙️ Features
-📝 Submit complaints
-📊 Admin dashboard
-🔄 Update complaint status
-💬 Admin responses
-🔍 Filter complaints
-🔐 Secure data handling
-
-
-👥 Roles
-🎓 Student
-Submit complaints
+👨‍🎓 Student Module
+Register/Login
+Raise complaints (technical/academic)
 Track complaint status
-🪑 Chair / Admin
+View previous complaints
+
+👨‍🏫 Teacher/Admin Module
 View all complaints
-Update status
-Respond to complaints
+Update complaint status (Pending / In Progress / Resolved)
+Respond to student issues
+Manage users
 
-🔮 Future Improvements
-Email notifications
-File attachments
-Authentication (JWT)
-Analytics dashboard
-📸 Screenshots
 
-Add your project screenshots here
+📊 System Features
+Real-time complaint tracking
+Secure authentication system
+Clean and user-friendly interface
+🏗️ System Architecture
 
-🤝 Contributing
 
-Contributions are welcome! Feel free to fork and submit a pull request.
+Client (Browser) → Frontend UI
+Backend (Spring Boot APIs)
+Database (MySQL)
 
-📄 License
+
+🔄 Workflow
+Student logs into the system
+Submits a complaint
+Complaint is stored in database
+Teacher/Admin reviews complaint
+Status is updated
+Student can track progress
+
+
+🚀 Future Enhancements
+Email/SMS notifications
+Real-time chat between student & teacher
+AI-based issue categorization
+Complaint priority system
+Dashboard analytics
+
+
+📂 How to Run the Project
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Open project in IDE (IntelliJ / Eclipse)
+
+# Configure database (MySQL)
+# Update application.properties
+
+# Run Spring Boot application
+🤝 Contribution
+
+Contributions are welcome! Feel free to fork this repository and improve the project.
+
+📜 License
 
 This project is open-source and available under the MIT License.
+
+👨‍💻 Author
+
+Ayushu Singh
+Arpit Shukla
+
+Aspiring Software Engineer
+Skilled in Java, Spring Boot, and Web Development
+
+
