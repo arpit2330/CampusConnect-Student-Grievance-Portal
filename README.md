@@ -38,6 +38,7 @@ MongoDB (Mongoose ODM)
 
 
 📁 Project Structure
+
 Campus-Connect/
 │
 ├── client/               # React Frontend
@@ -118,8 +119,10 @@ Maintain digital records
 
 Ayushu Singh
 
-Software Engineering Student
+Computer Science(AIML)
+
 MERN Stack Developer
+
 ⭐ Contributing
 
 Pull requests are welcome. For major changes, open an issue first to discuss what you'd like to change.
