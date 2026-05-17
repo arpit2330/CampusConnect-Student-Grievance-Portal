@@ -11,24 +11,27 @@ const SubmitComplaint = () => {
   const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
- const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
   e.preventDefault();
+
   try {
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem("token");
+
     await axios.post(
-   `${import.meta.env.VITE_API_URL}/api/complaints`,
-    formData,
-    {
+      import.meta.env.VITE_API_URL + "/api/complaints",
+      formData,
+      {
         headers: {
-          Authorization: `Bearer ${token}`,
+          Authorization: "Bearer " + token,
         },
       }
     );
-    alert('Complaint submitted!');
-     navigate('/dashboard'); //  Automatically redirect
+
+    alert("Complaint submitted!");
+    navigate("/dashboard");
   } catch (err) {
-    console.error('Submit Error:', err.response?.data || err.message);
-    alert('Failed to submit complaint');
+    console.error("Submit Error:", err.response?.data || err.message);
+    alert("Failed to submit complaint");
   }
 };
 
