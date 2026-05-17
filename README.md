@@ -60,7 +60,7 @@ Campus-Connect/
 ⚙️ Installation & Setup
 
 1️⃣ Clone Repository
-git clone https://github.com/arpit2330/CampusConnect-Student-Grievance-Portal/edit/master/README.md
+git clone https://github.com/ayushu2330/CampusConnect-Student-Grievance-Portal/edit/master/README.md
 cd campus-connect
 
 2️⃣ Setup Backend
