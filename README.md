@@ -233,29 +233,6 @@ This system helps institutions:
 
 ---
 
-# Interview Questions
-
-## Why JWT?
-JWT provides secure and stateless authentication between client and server.
-
-## Why MongoDB?
-MongoDB offers flexible schema handling and integrates well with MERN stack applications.
-
-## Why bcrypt?
-bcrypt securely hashes passwords and protects user credentials.
-
-## What is Protected Routing?
-Protected routing restricts unauthorized users from accessing secure pages or APIs.
-
-## What is Middleware in Express?
-Middleware handles:
-- Authentication
-- Authorization
-- Error handling
-- Request validation
-
----
-
 # System Architecture
 
 ```text
